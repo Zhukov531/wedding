@@ -12,6 +12,7 @@ body, html {
       /* background-image: url('/img/bg4.jpeg');  */
     /* background: #A78355; */ 
     background: url(../img/bg6.JPG);
+    background: red;
       background-size: cover;
       background-position: center;
       
