@@ -11,7 +11,7 @@ body, html {
     .container {
       /* background-image: url('/img/bg4.jpeg');  */
     /* background: #A78355; */
-    background: url(/img/bg6.jpg); 
+    background: url(../img/bg6.jpg); 
       background-size: cover;
       background-position: center;
       
