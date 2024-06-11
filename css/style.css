@@ -10,8 +10,8 @@ body, html {
 
     .container {
       /* background-image: url('/img/bg4.jpeg');  */
-    /* background: #A78355; */
-    background: url(../img/bg6.jpg); 
+    /* background: #A78355; */ 
+    background: url(../img/bg6.JPG);
       background-size: cover;
       background-position: center;
       
