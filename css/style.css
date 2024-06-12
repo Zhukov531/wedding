@@ -241,7 +241,7 @@ body {
 /* D1C6B6 */
 
 .speak {
-    background-color: #D1C6B6;
+    background-color: #D9D2C8;
     padding: 50px 0;
 }
 .speak-content {
@@ -251,17 +251,19 @@ body {
 }
 .speak-content h2{
     font-size: 1.5em;
+    margin-bottom: 30px;
 }
 .speak-content p{
     text-align: center;
     width: 500px;
     font-size: 1em;
+    margin-bottom: 15px;
 }
 .speak-content button{
     margin: 10px 0;
     padding: 10px 15px;
-    background: #211712;
-    color: #D1C6B6;
+    background: #4A5A4F;
+    color: white;
     border: none;
     cursor: pointer;
 }
@@ -287,16 +289,23 @@ body {
     justify-content: center;
 }
 .donate-block {
-    border: 2px solid #A78355;
+    border: 2px solid #D4AF37;
     padding: 30px;
     text-align: center;
 }
+.donate-block h2{
+    margin-bottom: 30px;
+}
+.donate-block p{
+    margin-bottom: 5px;
+}
 .donate-qr {
     width: 150px;
+    margin-top: 30px;
 }
 .contacts {
     padding: 50px 0;
-    background: #EAE9E7;
+    background: #D9D2C8;
 }
 .contacts-content {
     display: flex;
@@ -310,7 +319,7 @@ body {
     margin-bottom: 30px;
 }
 .helper {
-    border: 2px solid #211712;
+    border: 2px solid #4A5A4F;
     display: flex;
     align-items: center;
     padding: 10px 30px;
@@ -335,6 +344,11 @@ body {
 @media (max-width: 768px){
     .donate{
         padding: 20px;
+    }
+
+    .contacts-content>p{
+        margin-top: 30px;
+        width: 70vw;
     }
 }
 
