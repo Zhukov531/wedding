@@ -35,3 +35,76 @@
     menu.classList.toggle('active');
     burger.classList.toggle('active');
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    const speaks = document.querySelectorAll('.speak');
+
+    const appearOptions = {
+        threshold: 0.2,
+        rootMargin: "0px 0px -150px 0px"
+    };
+
+    const appearOnScroll = new IntersectionObserver(function (entries, appearOnScroll) {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) {
+                return;
+            } else {
+                entry.target.classList.add('visible');
+                appearOnScroll.unobserve(entry.target);
+            }
+        });
+    }, appearOptions);
+
+    speaks.forEach(speak => {
+        appearOnScroll.observe(speak);
+    });
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const speaks = document.querySelectorAll('.donate');
+
+    const appearOptions = {
+        threshold: 0.2,
+        rootMargin: "0px 0px -150px 0px"
+    };
+
+    const appearOnScroll = new IntersectionObserver(function (entries, appearOnScroll) {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) {
+                return;
+            } else {
+                entry.target.classList.add('visible');
+                appearOnScroll.unobserve(entry.target);
+            }
+        });
+    }, appearOptions);
+
+    speaks.forEach(speak => {
+        appearOnScroll.observe(speak);
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const speaks = document.querySelectorAll('.contacts');
+
+    const appearOptions = {
+        threshold: 0.2,
+        rootMargin: "0px 0px -150px 0px"
+    };
+
+    const appearOnScroll = new IntersectionObserver(function (entries, appearOnScroll) {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) {
+                return;
+            } else {
+                entry.target.classList.add('visible');
+                appearOnScroll.unobserve(entry.target);
+            }
+        });
+    }, appearOptions);
+
+    speaks.forEach(speak => {
+        appearOnScroll.observe(speak);
+    });
+});

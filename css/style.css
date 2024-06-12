@@ -154,10 +154,11 @@ body {
       margin: 0;
     }
 
-    .names h2 {
-      font-size: 1.5em;
-      margin: 5px 0;
-    }
+.names h2 {
+    font-size: 1.5em;
+    margin-top: 50%;
+
+}
 .names h3{
     font-size: 1.5em;
 }
@@ -358,4 +359,47 @@ body {
     .menu{
         width: 100%;
     }
+}
+
+
+.speak {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.speak.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.speak button {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+.speak.visible button {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.donate {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.donate.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.contacts {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.contacts.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
