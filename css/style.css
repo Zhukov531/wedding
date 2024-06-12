@@ -31,37 +31,117 @@ body, html {
       position: relative; /* Добавляем position: relative */
 }
 .menu {
-    margin-top: 15px;
-    /* background: red; */
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    /* background-color: #fff; */
     font-size: 20px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    transition: 0.5s;
 }
+
+.menu-links {
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
 .menu-a {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    /* color: rgb(34, 34, 34); */
     margin: 0 15px;
     font-weight: 500;
     transition: 0.5s;
+
 }
-.menu-a:hover{
+
+.menu-a:hover {
     color: #D1C6B6;
     text-decoration: underline;
-}
-.menu-a-lang {
 
+}
+
+.menu-a-lang {
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
+.menu-lang{
+
+    display: flex;
+}
+
 .lang-img {
     width: 30px;
+
 }
-.lang-img2{
+
+.lang-img2 {
     height: 20px;
 }
 
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 4px;
+    transition: all 0.3s;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        transition: 0.5s;
+        /* flex-direction: column; */
+        /* align-items: flex-start; */
+    justify-content: space-between;
+
+    }
+
+    .menu-links {
+        display: none;
+        padding-left: 50px;
+        align-items: flex-start;
+    }
+    .menu-links a{
+        margin: 10px 0;
+    }
+
+    .burger {
+        display: flex;
+        margin-left: 25px;
+    }
+
+    .menu.active .menu-links {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+    .menu-lang {
+        display: flex;
+        margin-left: auto;
+    }
+
+    .burger.active div:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .burger.active div:nth-child(2) {
+        opacity: 0;
+    }
+
+    .burger.active div:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+}
 
     .names {
       margin-top: 15vh; 
@@ -122,6 +202,9 @@ body, html {
       font-size: 1em;
     }
 
+@media (max-width: 768px){
+    
+}
     /* ------------------------------------------------------------ */
 
 
@@ -232,4 +315,11 @@ body, html {
 .helper-link{
     text-decoration: none;
     color: black;
+}
+/* --------------------------------------------------------------- */
+
+@media screen and (max-width:430px) {
+    .menu{
+        width: 100%;
+    }
 }

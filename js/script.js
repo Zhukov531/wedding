@@ -28,3 +28,10 @@
         document.getElementById("countdown").innerHTML = "Свершилось!";
       }
     }, 1000);
+
+    function toggleMenu() {
+    const menu = document.querySelector('.menu');
+    const burger = document.querySelector('.burger');
+    menu.classList.toggle('active');
+    burger.classList.toggle('active');
+}
