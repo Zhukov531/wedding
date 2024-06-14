@@ -175,9 +175,10 @@ body {
       width: 100%;
       /* background-color: rgba(0, 0, 0, 0.5);  */
       padding: 20px 0;
-      position: absolute; 
+      /* position: absolute;  */
       bottom: 50px;
       left: 0;
+      margin-top: 50px;
     }
 
     .countdown-item {
@@ -410,3 +411,5 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
+
