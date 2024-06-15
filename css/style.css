@@ -237,6 +237,34 @@ body {
     }
 }
 
+/* --------------------------------------------------------------- */
+
+.dear-fr {
+    box-shadow: 1px 1px 15px #D9D2C8;
+    background: #D9D2C8;
+    color: black;
+}
+.dear-fr-content {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.dear-fr-content h2{
+    font-size: 1.5em;
+
+}
+.dear-fr-content p{
+    margin-top: 50px;
+    max-width: 50%;
+}
+.dear-fr-content span{
+    font-weight: 500;
+    font-style: italic;
+
+}
 
 /* --------------------------------------------------------------- */
 
@@ -306,7 +334,8 @@ body {
     margin-bottom: 30px;
 }
 .donate-block p{
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    max-width: 500px;
 }
 .donate-qr {
     width: 150px;
