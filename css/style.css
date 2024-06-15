@@ -260,6 +260,11 @@ body {
     margin-top: 50px;
     max-width: 50%;
 }
+@media (max-width: 768px){
+    .dear-fr-content p{
+        max-width: 80%;
+    }
+}
 .dear-fr-content span{
     font-weight: 500;
     font-style: italic;
