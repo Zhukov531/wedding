@@ -323,28 +323,65 @@ body {
 
 .donate {
     padding: 50px 0;
+    /* background-color: #F5F5F5;  */
 }
+
 .donate-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 .donate-block {
-    border: 2px solid #D4AF37;
+    background-color: #FFFFFF; /* Белый фон */
+    border: 2px solid #D5C2A0; /* Бежевый цвет */
     padding: 30px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; /* Скругленные углы */
+    box-shadow: 0 4px 8px #D5C2A0; /* Тень */
 }
-.donate-block h2{
-    margin-bottom: 30px;
+
+.donate-block h2 {
+    margin-bottom: 20px;
+    color: #3A2C28; /* Темно-коричневый цвет */
+    font-family: 'Georgia', serif;
+    font-size: 24px;
 }
-.donate-block p{
+
+.donate-block p {
     margin-bottom: 15px;
     max-width: 500px;
+    color: #3A2C28; /* Темно-коричневый цвет */
+    font-family: 'Georgia', serif;
+    font-size: 16px;
 }
+
+.cardNum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #485C4A; /* Темно-зеленый цвет */
+    background-color: #F5F5F5; /* Светло-бежевый фон */
+    border-radius: 5px; /* Скругленные углы */
+    margin-bottom: 20px;
+    font-family: 'Courier New', monospace;
+    color: #485C4A; /* Темно-зеленый цвет */
+}
+
+.qr-code {
+    margin-bottom: 10px;
+}
+
 .donate-qr {
     width: 150px;
-    margin-top: 30px;
+    border-radius: 5px; /* Скругленные углы для изображения */
+    border: 2px solid black;
 }
 .contacts {
     padding: 50px 0;
