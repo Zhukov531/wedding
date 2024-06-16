@@ -239,10 +239,18 @@ body {
 
 /* --------------------------------------------------------------- */
 
-.dear-fr {
+.dear-pre {
     box-shadow: 1px 1px 15px #D9D2C8;
     background: #D9D2C8;
     color: black;
+    background: url("../img/dear2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.dear-fr{
+    box-shadow: 1px 1px 15px #D9D2C8;
+    background: #d9d2c8d2;
 }
 .dear-fr-content {
     padding: 50px 0;
