@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="fin">
+<html lang="fi">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Анатолий и Екатерина</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <title>Anatoli ja Ekaterina</title>
+  <link rel="stylesheet" href="./css/style.css?v=2.0" >
 </head>
 <body>
 
@@ -19,13 +19,13 @@
         </div>
         <div class="menu-links">
             <a href="#cal" class="menu-a">Päivämäärä</a>
-            <a href="#zm" class="menu-a">СHääpuhe</a>
-            <a href="#dnt" class="menu-a">Lahjoita</a>
+            <a href="#zm" class="menu-a">Hääseremonia</a>
+            <a href="#dnt" class="menu-a">Anna Lahja</a>
             <a href="#cnt" class="menu-a">Yhteystiedot</a>
         </div>
         <div class="menu-lang">
             <a href="./index.html" class="menu-a menu-a-lang">
-                <img src="./img/rus.png" alt="Russian lang" class="lang-img">
+                <img src="./img/rus.png" alt="Rus lang" class="lang-img">
             </a>
             <a href="./eng.html" class="menu-a menu-a-lang">
                 <img src="./img/eng.png" alt="Eng lang" class="lang-img2">
@@ -34,15 +34,14 @@
     </div>
 
     <div class="names">
-      <h1>Anatolii <br> ja <br> Ekaterina</h1>
+      <h1>Anatolii<br> ja <br> Ekaterina</h1>
       <h2>14.09.2024</h2>
-      <!-- <h3>Дорогие друзья и родные</h3>
-      <p>C огромной радостью приглашаем вас на день, когда мы
-        объединим наши жизни и создадим новую семью.
-        Ваша поддержка и участие очень важны для нас.
+      <!-- <h3>Rakkaat ystävät ja sukulaiset</h3>
+      <p>Meillä on suuri ilo kutsua teidät päivään, jolloin yhdistämme elämämme ja luomme uuden perheen.
+        Tukenne ja osallistumisenne ovat meille erittäin tärkeitä.
         <br>
         <br>
-        Мы будем счастливы разделить с вами нашу радость!</p> -->
+        Olemme iloisia, jos voitte jakaa ilomme kanssamme!</p> -->
     </div>
 
     <div class="countdown" id="countdown">
@@ -75,30 +74,53 @@
     </div>
 </div>
 
-<div id="zm" class="speak">
+<div class="dear-pre">
+<div class="dear-fr">
+    <div class="dear-fr-content">
+        <h2>Rakas ystävä!</h2>
+        <p>Kutsumme sinut sydämellisesti juhlimaan elämämme tärkeintä päivää — yhteisen elämämme alkua. Olemme erittäin iloisia, jos voitte jakaa tämän päivän kanssamme! 
+            <br>
+            <br>
+        <span>Häät pidetään 14.09.2024 osoitteessa: Yhdistynyt kuningaskunta, Newcastle upon Tyne.</span>
+        </p>
+
+        <p>Virallisen seremonian jälkeen vietämme yhdessä iltaa, johon kuuluu juhlaillallinen ja jatko-ohjelma. Odotamme innolla tapaamistamme ja päivän ilon jakamista kanssasi. Sijainti ja aika ilmoitetaan tässä kutsussa pian!</p>
+    </div>
+</div>
+</div>
+
+<!-- <div id="zm" class="speak">
     <div class="speak-content">
         <h2>Tietoa:</h2>
-        <p>Olemme valmistelleet tietoa hääpuheen ja juhlan ajasta ja paikasta kaikille vieraillemme, jotta löydätte meidät helposti tänä erityisenä päivänä.</p>
-
-        <p>НAlla olevat painikkeet vievät teidät ZOOM-konferenssiin, jossa voitte seurata tapahtumaa:</p>
-        <!-- <img class="zoompng" src="/img/zoom.png" alt=""> -->
+        <p>Olemme valmistelleet tietoa hääseremonian ajasta japaikasta </p>
+        <p>Alla olevat painikkeet vievät teidät ZOOM-konferenssiin, jossa voitte nähdä tapahtuman:</p>
+       
         <a href="">
             <button>
-                <img class="zoompng" src="/img/zoom.png" alt="">
-               <!-- <span>Свадебная речь</span> -->
+                <img class="zoompng" src="./img/zoom.png" alt="">
             </button>
         </a>
     </div>
-</div>
-
+</div> -->
 <div id="dnt" class="donate">
     <div class="donate-content">
         <div class="donate-block">
-            <h2>Sähköisen lahjan tiedot</h2>
-            <p>Tilinumero: <span>123456789</span> </p>
-            <p>Kortin numero:  <span>123456789</span> </p>
-            <p>QR-koodi</p>
-            <img src="./img/qr.png" alt="" class="donate-qr">
+            <h2>Lahjat</h2>
+            <p>Voit antaa meille sähköisen lahjan skannaamalla tai napsauttamalla alla olevaa QR-koodia:</p>
+            <!-- <p>Tilinumero: <span>123456789</span> </p> -->
+            <!-- <div class="cardNum">
+                <p>Kortin numero:</p>
+                <span>Anatolii Zhukov <br> 
+                120 33 262 
+                <br> 80-46-91
+                </span> 
+            </div>
+            <p>QR-koodi siirtoa varten:</p> -->
+            <div class="qr-code">
+                <a href="">
+                    <img src="./img/qr1.png" alt="QR-koodi" class="donate-qr">
+                </a>
+            </div>
         </div>
     </div>
 </div>
@@ -106,14 +128,15 @@
 <div id="cnt" class="contacts">
     <div class="contacts-content">
         <h2>Yhteystiedot</h2>
-        <p>Jos teillä on kysyttävää, voitte ottaa yhteyttä hääavustajaamme:</p>
+        <br>
+        <p>Jos sinulla on kysyttävää, voit ottaa yhteyttä hääavustajaamme:</p>
         <a class="helper-link" href="">
         <div class="helper">
             <div class="wa">
                 <img src="./img/wa.png" alt="">
             </div>
             <div class="helper-name">
-                <h3>Zhukov Juri</h3>
+                <h3>Juri Zhukov</h3>
                 <p>+7 999 660 19 02</p>
             </div>
         </div>
