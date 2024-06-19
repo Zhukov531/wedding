@@ -328,6 +328,18 @@ body {
 }
 
 /* --------------------------------------------------------------- */
+.donate-btn{
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #D5C2A0;
+    border-radius: 10px; /* Скругленные углы */
+    box-shadow: 0 4px 8px #D5C2A0; /* Тень */
+    transition: .2s;
+}
+.donate-btn:hover{
+    background: rgb(231, 231, 231);
+    cursor: pointer;
+}
 
 .donate {
     padding: 50px 0;
@@ -406,6 +418,8 @@ body {
     width: 400px;
     margin-bottom: 30px;
 }
+
+
 .helper {
     border: 2px solid #4A5A4F;
     display: flex;
@@ -428,6 +442,8 @@ body {
     text-decoration: none;
     color: black;
 }
+
+
 
 @media (max-width: 768px){
     .donate{
@@ -474,6 +490,7 @@ body {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 1s ease-out, transform 1s ease-out;
+    /* padding: 50px 0; */
 }
 
 .donate.visible {
@@ -492,3 +509,25 @@ body {
 }
 
 
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #e1d9bd;
+    margin-top: 50px;
+}
+.cont-content {
+    padding: 2px;
+    font-size: 10px;
+    color: #655a33;
+}
+.cont-content p{
+}
+
+.cont-content span{
+    text-decoration: underline;
+    
+}
+.cont-content a{
+color: #655a33;
+}
