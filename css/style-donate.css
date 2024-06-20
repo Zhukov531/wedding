@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/dear2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.donate {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.donate-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.donate-block {
+    background-color: #FFFFFF; /* Белый фон */
+    border: 2px solid #D5C2A0; /* Бежевый цвет */
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; /* Скругленные углы */
+    box-shadow: 0 4px 8px #626262; /* Тень */
+    min-width: 300px;
+}
+
+.donate-block h2 {
+    color: #3A2C28; /* Темно-коричневый цвет */
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.donate-block p {
+    color: #3A2C28; /* Темно-коричневый цвет */
+    font-size: 16px;
+    margin: 5px;
+}
+
+
+
+.donate-btn{
+    margin-top: 20px;
+    padding: 10px 40px;
+    border: 2px solid #D5C2A0;
+    border-radius: 10px; /* Скругленные углы */
+    box-shadow: 0 4px 8px #D5C2A0; /* Тень */
+    transition: .2s;
+}
+.donate-btn:hover{
+    background: rgb(231, 231, 231);
+    cursor: pointer;
+}
