@@ -580,14 +580,23 @@ color: #655a33;
     cursor: pointer;
 }
 .zoom-a{
-    display: none;
+    /* display: none; */
     /* ПОТОМ НАДО ВКЛЮЧИТЬ ВИДИМОСТЬ */
     margin-top: 25px;
     text-align: center;
-
+    text-decoration: none;
+    color: black;
 }
 .zoom-block-p{
     margin-bottom: 15px;
     max-width: 450px;
     text-align: center;
+}
+.password{
+    font-size: 20px;
+}
+.attention{
+    color: rgba(0, 0, 0, 0.500);
+    margin-top: 15px;
+    font-size: 12px;
 }

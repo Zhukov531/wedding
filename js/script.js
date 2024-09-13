@@ -1,5 +1,5 @@
 // Установите дату свадьбы
-    const weddingDate = new Date('September 14, 2024 00:00:00').getTime();
+    const weddingDate = new Date('September 14, 2024 14:00:00').getTime();
 
     // Обновляйте таймер каждую секунду
     const countdown = setInterval(function() {
@@ -25,7 +25,7 @@
       // Если обратный отсчет завершен, отобразите сообщение
       if (distance < 0) {
         clearInterval(countdown);
-        document.getElementById("countdown").innerHTML = "Свершилось!";
+        document.getElementById("countdown").innerHTML = "14 Сентября 2024!";
       }
     }, 1000);
 
